@@ -19,7 +19,7 @@
 
 1. Tests should be added as per the convention followed. 
    - New Cucumber feature file should be created under **src/test/resources/FeatureFiles**
-   - New cucumber test steps definitions should be created inside the **src/test/java/com.dhl.stepdefinitions**
+   - New cucumber test steps definitions should be created inside the **src/test/java/stepdefinitions**
    folder.
    - Web UI pages should be created under **src/test/java/test.web.ui.pages**.
    - Mobile UI pages should be created under **src/test/java/test.mobile.ui.pages**.
