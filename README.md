@@ -1,4 +1,4 @@
-# Automation Test Scripts Using Selenium/Java - MAWM
+# Automation Test Scripts Using Selenium/Java
 ## Pre-requisites :
    -	Required installation.  
          - Java 11 (JDK)
