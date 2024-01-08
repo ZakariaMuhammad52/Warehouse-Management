@@ -134,11 +134,7 @@
 ![img_18.png](readmeimages/img_18.png)
 
 9. Email report will be as shown below.
+    
+![img_19](https://github.com/ZakariaMuhammad52/Warehouse-Management/assets/155984896/a2364cd6-c6db-4353-9800-2008599e6876)
 
-![img_19.png](readmeimages/img_19.png)
 
-## Questions :
-
-For any further clarification - please reach out to `arul.prakash@dhl.com`
-
-Refer Presentation [DSC_Test_Automation Framework.pptx](https://git.dhl.com/arulprak/AutomationTestingFramework_Selenium/DSC_Test_Automation.Framework.pptx)
