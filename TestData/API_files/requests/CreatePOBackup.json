@@ -1,0 +1,52 @@
+{
+    "PurchaseOrderId": "{PO_ID}",
+    "OriginFacilityId": "",
+    "DestinationFacilityId": "{L2-ORG}",
+    "Closed": false,
+    "Canceled": false,
+    "PurchaseOrderStatus": "Created",
+    "PurchaseOrderLine": [
+        {
+            "PurchaseOrderLineId": "{LineID_Line1}",
+            "OrderQuantity": "{OrdQty_Line1}",
+            "QuantityUomId": "UNIT",
+            "StandardPackQuantity":"1",
+            "Closed": false,
+            "Canceled": false,
+            "ItemId": "{ItemID_Line1}",
+
+            "InventoryTypeId": "F",
+            "ProductStatusId": null,
+            "BatchNumber": null,
+            "CountryOfOrigin": null,
+            "InventoryAttribute1": null,
+            "InventoryAttribute2": null,
+            "InventoryAttribute3": null,
+            "InventoryAttribute4": null,
+            "InventoryAttribute5": null,
+            "ExpiryDate": null,
+            "ManufacturingDate": null
+        },
+   {
+            "PurchaseOrderLineId": "{LineID_Line2}",
+            "OrderQuantity": "{OrdQty_Line2}",
+            "QuantityUomId": "UNIT",
+            "StandardPackQuantity":"1",
+            "Closed": false,
+            "Canceled": false,
+            "ItemId": "{ItemID_Line2}",
+
+            "InventoryTypeId": "F",
+            "ProductStatusId": null,
+            "BatchNumber": null,
+            "CountryOfOrigin": null,
+            "InventoryAttribute1": null,
+            "InventoryAttribute2": null,
+            "InventoryAttribute3": null,
+            "InventoryAttribute4": null,
+            "InventoryAttribute5": null,
+            "ExpiryDate": null,
+            "ManufacturingDate": null
+        }
+    ]
+}

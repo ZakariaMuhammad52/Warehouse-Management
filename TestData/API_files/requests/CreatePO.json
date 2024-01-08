@@ -1,0 +1,30 @@
+{
+    "PurchaseOrderId": "{PO_ID}",
+    "OriginFacilityId": "",
+    "DestinationFacilityId": "{L2-ORG}",
+    "Closed": false,
+    "Canceled": false,
+    "PurchaseOrderStatus": "Created",
+    "PurchaseOrderLine": [
+        {
+            "PurchaseOrderLineId": "{LineID_L1}",
+            "OrderQuantity": "{OrdQty_L1}",
+            "QuantityUomId": "UNIT",
+            "StandardPackQuantity":"1",
+            "Closed": false,
+            "Canceled": false,
+            "ItemId": "{ItemID_L1}",
+            "InventoryTypeId": "{InventoryTypeId_L1}",
+            "ProductStatusId": "{ProductStatusId_L1}",
+            "BatchNumber": "{BatchNumber_L1}",
+            "InventoryAttribute1": "{InventoryAttribute1_L1}",
+            "InventoryAttribute2": "{InventoryAttribute2_L1}",
+            "InventoryAttribute3": "{InventoryAttribute3_L1}",
+            "InventoryAttribute4": "{InventoryAttribute4_L1}",
+            "InventoryAttribute5": "{InventoryAttribute5_L1}",
+            "CountryOfOrigin": "{CountryOfOrigin_L1}",
+            "ExpiryDate": null,
+            "ManufacturingDate": null
+        }
+    ]
+}

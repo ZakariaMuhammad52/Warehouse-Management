@@ -1,0 +1,75 @@
+{
+    "Data": [
+        {
+            "AggregationAttribute": "JHAGGATTR",
+            "BillToFacilityId": "StoreA",
+            "BillingMethodId": "Consignee",
+            "Cancelled": false,
+            "DeliveryEndDateTime": "2023-04-05T10:15:30",
+            "DeliveryStartDateTime": "2023-03-31T10:15:30",
+            "DesignatedStopId": null,
+            "DestinationAddress": {
+                "Address1": "Dest Address1",
+                "Address2": "Dest Address2",
+                "Address3": "Dest Address3",
+                "City": "Bangkok",
+                "Country": "TH",
+                "County": "County",
+                "Email": "user@company.com",
+                "FirstName": "firstname",
+                "LastName": "lastname",
+                "Phone": "0000000000",
+                "PostalCode": "00000",
+                "State": "BKK"
+            },
+            "Priority": "20",
+            "OriginalOrderContact": [
+                {
+                    "BusinessUnitId": "{BUID}",
+                    "Contact": {
+                        "Address1": "222"
+                    },
+                    "ContactTypeId": "ReturnTo",
+                    "FacilityId": "{facility}"
+                },
+                {
+                    "BusinessUnitId": "{BUID}",
+                    "Contact": {
+                        "Address1": "345"
+                    },
+                    "ContactTypeId": "Holder",
+                    "FacilityId": "{facility}"
+                }
+            ],
+            "OrderType": "Customer",
+            "OrgId": "{facility}",
+            "OriginFacilityId": "{facility}",
+            "OriginalOrderId": "{OriginalOrder_ID}",
+            "OriginalOrderLine": [
+                {
+                    "Cancelled": false,
+                    "Extended": {},
+                    "ItemId": "{Item_ID}",
+                    "OrderedQuantity": "10",
+                    "OrgId": "{facility}",
+                    "OriginalOrderLineId": "1",
+                    "QuantityUomId": "UNIT"
+                }
+            ],
+            "OriginalOrderNotes": [
+                {
+                    "ImportTemplateId": "ATOOTSNote",
+                    "NoteSequence": "1"
+                },
+                {
+                    "ImportTemplateId": "ATOOUCNote",
+                    "NoteSequence": "2"
+                }
+            ],
+            "PickupEndDateTime": "2023-04-02T10:15:30",
+            "PickupStartDateTime": "2023-03-31T10:15:30",
+            "OrderPlacedDateTime": "2020-03-10T00:00:00",
+            "UseImportTemplate": true
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "data": 
+[
+{
+    "AsnId": "{ASN_ID}",
+    "BusinessUnitId": "BUID",
+    "DestinationFacilityId": "facility",
+    "EstimatedDeliveryDate": "2023-10-18T18:39:54.197",
+    "AsnOriginTypeId": "P",
+    "AsnLevelId": "ITEM",
+    "VendorId": null,
+    "ShippedDate": null,
+    
+    "AsnLine": [
+        {
+            "BusinessUnitId": "BUID",
+            "QuantityUomId": "UNIT",
+            "ItemId": "ItemId1",
+            "ShippedQuantity": "10",
+            "AsnLineId": "1",
+            "Sequence": "1",
+            "InventoryTypeId": "F",
+            "ProductStatusId": "A",
+            "BatchNumber": null,
+            "CountryOfOrigin": null,
+            "InventoryAttribute1": null,
+            "InventoryAttribute2": null,
+            "InventoryAttribute3": null,
+            "InventoryAttribute4": null,
+            "InventoryAttribute5": null,
+            "ExpiryDate": null,
+            "ManufacturingDate": null,
+            "RetailPrice": null,
+            "VendorId": null,
+            "AsnLineRequestedService": [],
+            "PurgeDate": null,
+            "StandardLpnQuantity": null,
+            "StandardPackQuantity": null,
+            "PurchaseOrderId": null,
+            "PurchaseOrderLineId": null,
+            "Canceled": false,
+            "StandardSubPackQuantity": null,
+            "AsnLineAttribute": []                
+        },
+        {
+            "BusinessUnitId": "BUID",
+            "QuantityUomId": "UNIT",
+            "ItemId": "ItemId2",
+            "ShippedQuantity": "10",
+            "AsnLineId": "2",
+            "Sequence": "2",
+            "InventoryTypeId": null,
+            "ProductStatusId": "A",
+            "BatchNumber": null,
+            "CountryOfOrigin": "AU",
+            "InventoryAttribute1": null,
+            "InventoryAttribute2": null,
+            "InventoryAttribute3": null,
+            "InventoryAttribute4": null,
+            "InventoryAttribute5": null,
+            "ExpiryDate": null,
+            "ManufacturingDate": null,
+            "RetailPrice": null,
+            "VendorId": null,
+            "AsnLineRequestedService": [],
+            "PurgeDate": null,
+            "StandardLpnQuantity": null,
+            "StandardPackQuantity": null,
+            "PurchaseOrderId": null,
+            "PurchaseOrderLineId": null,
+            "Canceled": false,
+            "StandardSubPackQuantity": null,
+            "AsnLineAttribute": []                
+        }
+    ]
+}
+]
+}

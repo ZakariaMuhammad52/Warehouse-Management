@@ -1,0 +1,79 @@
+[
+  {
+    "featureName": "Verification of demo web application",
+    "featureData": [
+      {
+        "scenarioName": "Register in automation testing",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "firstname": "testing",
+						"lastname": "last",
+						"address": "Chennai,Tamilnadu",
+						"Email": "testing@dhl.com",
+						"Password": "Password@123",
+						"CPassword": "Password@123",
+						"ExpLangTxt": "Languages",
+            "SpinDir": "Up",
+            "ExpValue": "10",
+            "Subject": "Maths",
+            "expTitle": "Register"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "featureName": "Verification of DB",
+    "featureData": [
+      {
+        "scenarioName": "Verification of DB",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "username": "arulprak",
+            "password": "adsafdf"
+          },
+          {
+            "iteration": 2,
+            "postBody": {
+              "name": "morpheus",
+              "job": "leader"
+            }
+          },
+          {
+            "iteration": 3,
+            "postBody": {
+              "name": "morpheus",
+              "job": "leader"
+            }
+          }
+        ]
+      },
+      {
+        "scenarioName": "Verification of DB1",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "username": "arulprak1",
+            "password": "adsafdf1"
+          },
+          {
+            "iteration": 2,
+            "postBody": {
+              "name": "morpheus1",
+              "job": "leader1"
+            }
+          },
+          {
+            "iteration": 3,
+            "postBody": {
+              "name": "morpheus1",
+              "job": "leader1"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

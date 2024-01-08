@@ -1,0 +1,1387 @@
+[
+  {
+    "featureName": "Golden_Flow_Test_Cases",
+    "featureData": [
+      {
+        "scenarioName": "DFN-RECEIVING and PUTAWAY - ASN Receiving - Directed and Undirected Putaway",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exldd-auth.sce.manh.com",
+            "app_host": "https://exldd.sce.manh.com",
+            "L0-ORG": "AUT-R01",
+            "L1-ORG": "AUT-R01",
+            "L2-ORG": "AUT-R01",
+            "BUID":   "R-BU01",
+
+            "PO_ID": "PO-S1-<yyyyMMddhhmmssSSS>",
+            "LineID_Line1":  "1",
+            "ItemID_Line1":  "R01-ITM01",
+            "OrdQty_Line1":  "50",
+            "QuantityUomId_Line1":"UNIT",
+            "StandardPackQuantity_Line1":"1",
+            "InventoryTypeId_Line1":"F",
+            "ProductStatusId_Line1":"A",
+            "BatchNo_Line1": "B20230630001",
+            "InventoryAttribute1_Line1":"",
+            "InventoryAttribute2_Line1":"",
+            "InventoryAttribute3_Line1":"",
+            "InventoryAttribute4_Line1":"",
+            "InventoryAttribute5_Line1":"",
+            "CountryOfOrigin_Line1":"US",   
+            "QtyToAssign_Line1_Valid":"25",    
+            "QtyToAssign_Line1_InValid":"51",
+            "UserScanLocation":"B1-02-10-01"          
+          }
+        ]
+      },
+      
+      {
+        "scenarioName": "DFN-RECEIVING 03 Standard ASN receiving duplicated lines",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exldd-auth.sce.manh.com",
+            "app_host": "https://exldd.sce.manh.com",
+            "L0-ORG": "AUT-R01",
+            "L1-ORG": "AUT-R01",
+            "L2-ORG": "AUT-R01",
+            "BUID":   "R-BU01",
+
+            "PO_ID": "PO-S2-<yyyyMMddhhmmssSSS>",
+            "LineID_Line1":  "1",
+            "ItemID_Line1":  "R01-ITM01",
+            "OrdQty_Line1":  "25",
+            "QuantityUomId_Line1":"UNIT",
+            "StandardPackQuantity_Line1":"1",
+            "InventoryTypeId_Line1":"F",
+            "ProductStatusId_Line1":"A",
+            "BatchNo_Line1": "B20230630001",
+            "InventoryAttribute1_Line1":"",
+            "InventoryAttribute2_Line1":"",
+            "InventoryAttribute3_Line1":"",
+            "InventoryAttribute4_Line1":"",
+            "InventoryAttribute5_Line1":"",
+            "CountryOfOrigin_Line1":"US",   
+                       
+            "LineID_Line2":  "2",
+            "ItemID_Line2":  "R01-ITM01",
+            "OrdQty_Line2":  "25",
+            "QuantityUomId_Line2":"UNIT",
+            "StandardPackQuantity_Line2":"1",
+            "InventoryTypeId_Line2":"F",
+            "ProductStatusId_Line2":"A",
+            "BatchNo_Line2": "B202307317001",
+            "InventoryAttribute1_Line2":"",
+            "InventoryAttribute2_Line2":"",
+            "InventoryAttribute3_Line2":"",
+            "InventoryAttribute4_Line2":"",
+            "InventoryAttribute5_Line2":"",
+            "CountryOfOrigin_Line2":"US" 
+          }
+        ]
+      },
+      {
+        "scenarioName": "DFN-RECEIVING 06 Standard ASN receiving with serial numbers E2E",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exldd-auth.sce.manh.com",
+            "app_host": "https://exldd.sce.manh.com",
+            "L0-ORG": "AUT-R01",
+            "L1-ORG": "AUT-R01",
+            "L2-ORG": "AUT-R01",
+            "BUID":   "R-BU01",
+
+            "PO_ID": "PO-S3-<yyyyMMddhhmmssSSS>",
+            "LineID_Line1":  "1",
+            "ItemID_Line1":  "R01-ITM02",
+            "OrdQty_Line1":  "5",
+            "QuantityUomId_Line1":"UNIT",
+            "StandardPackQuantity_Line1":"1",
+            "InventoryTypeId_Line1":"F",
+            "ProductStatusId_Line1":"A",
+            "BatchNo_Line1": "B20230630001",
+            "InventoryAttribute1_Line1":"",
+            "InventoryAttribute2_Line1":"",
+            "InventoryAttribute3_Line1":"",
+            "InventoryAttribute4_Line1":"",
+            "InventoryAttribute5_Line1":"",
+            "CountryOfOrigin_Line1":"US"
+          }
+        ]
+      },
+      {
+        "scenarioName": "DFN-RECEIVING 01 - Blind receiving",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exldd-auth.sce.manh.com",
+            "app_host": "https://exldd.sce.manh.com",
+            "L0-ORG": "AUT-R01",
+            "L1-ORG": "AUT-R01",
+            "L2-ORG": "AUT-R01",
+            "BUID":   "R-BU01",            
+          
+            "ItemID_Line1":  "R01-ITM01",
+            "OrdQty_Line1":  "5",       
+            "BatchNo_Line1": "B20230630001"         
+          }
+        ]
+      },      
+      {
+        "scenarioName": "DFN-ADJ 01 Quantity Adjustment Positive iLPN",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exldd-auth.sce.manh.com",
+            "app_host": "https://exldd.sce.manh.com",
+            "L0-ORG": "AUT-R01",
+            "L1-ORG": "AUT-R01",
+            "L2-ORG": "AUT-R01",
+            "BUID":   "R-BU01",
+
+			 "PO_ID": "PO-S4-<yyyyMMddhhmmssSSS>",
+            "LineID_Line1":  "1",
+            "ItemID_Line1":  "R01-ITM01",
+            "OrdQty_Line1":  "25",
+            "QuantityUomId_Line1":"UNIT",
+            "StandardPackQuantity_Line1":"1",
+            "InventoryTypeId_Line1":"F",
+            "ProductStatusId_Line1":"A",
+            "BatchNo_Line1": "B20230630001",
+            "InventoryAttribute1_Line1":"",
+            "InventoryAttribute2_Line1":"",
+            "InventoryAttribute3_Line1":"",
+            "InventoryAttribute4_Line1":"",
+            "InventoryAttribute5_Line1":"",
+            "CountryOfOrigin_Line1":"US",   
+            "QtyToAssign_Line1_Valid":"25",           
+            "PositiveQtyIncrement":  "5",
+            "ReasonCode":  "11"
+          }
+        ]
+      },      
+      {
+        "scenarioName": "DFN-ADJ 02 Quantity Adjustment Negative iLPN",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exldd-auth.sce.manh.com",
+            "app_host": "https://exldd.sce.manh.com",
+            "L0-ORG": "AUT-R01",
+            "L1-ORG": "AUT-R01",
+            "L2-ORG": "AUT-R01",
+            "BUID":   "R-BU01",
+
+            "PO_ID": "PO-S5-<yyyyMMddhhmmssSSS>",
+            "LineID_Line1":  "1",
+            "ItemID_Line1":  "R01-ITM01",
+            "OrdQty_Line1":  "25",
+            "QuantityUomId_Line1":"UNIT",
+            "StandardPackQuantity_Line1":"1",
+            "InventoryTypeId_Line1":"F",
+            "ProductStatusId_Line1":"A",
+            "BatchNo_Line1": "B20230630001",
+            "InventoryAttribute1_Line1":"",
+            "InventoryAttribute2_Line1":"",
+            "InventoryAttribute3_Line1":"",
+            "InventoryAttribute4_Line1":"",
+            "InventoryAttribute5_Line1":"",
+            "CountryOfOrigin_Line1":"US",   
+            "QtyToAssign_Line1_Valid":"25",           
+            "NegativeQtyDecrement":  "5",
+            "ReasonCode":  "11"      
+          }
+        ]
+      },      
+      {
+        "scenarioName": "DFN-ADJ 03 Quantity Adjustment Positive Pick Location no iLPN",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exldd-auth.sce.manh.com",
+            "app_host": "https://exldd.sce.manh.com",
+            "L0-ORG": "AUT-R01",
+            "L1-ORG": "AUT-R01",
+            "L2-ORG": "AUT-R01",
+            "BUID":   "R-BU01",
+
+            "DisplayLocation": "S1-01-01-02",
+            "AddQuantity":  "4",
+            "ReasonCode":  "(11) Found (+)"            
+          }
+        ]
+      },
+      {
+        "scenarioName": "DFN-ADJ 04 Quantity Adjustment Negative Pick Location no iLPN",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exldd-auth.sce.manh.com",
+            "app_host": "https://exldd.sce.manh.com",
+            "L0-ORG": "AUT-R01",
+            "L1-ORG": "AUT-R01",
+            "L2-ORG": "AUT-R01",
+            "BUID":   "R-BU01",
+
+            "DisplayLocation": "S1-01-02-02",
+            "RemoveQuantity":  "2",
+            "ReasonCode":  "(11) Found (+)"  
+          }
+        ]
+      },
+      {
+        "scenarioName": "DFN-Export_Import Original Order2_Runwave and Picking Single Order",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exldd-auth.sce.manh.com",
+            "app_host": "https://exldd.sce.manh.com",
+            "L0-ORG": "AUT-R01",
+            "L1-ORG": "AUT-R01",
+            "L2-ORG": "AUT-R01",
+            "BUID":   "R-BU01",
+
+             "OriginalOrderID": "AU<yyMMddhhmmss>",  
+             "ItemID_Line1":  "R01-ITM01",          
+             "ReasonCode":  ""  
+          }
+        ]
+      },
+      {
+        "scenarioName": "FN-PICKING-01 - Test Picking Single Order Tote",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exldd-auth.sce.manh.com",
+            "app_host": "https://exldd.sce.manh.com",
+            "L0-ORG": "AUT-R01",
+            "L1-ORG": "AUT-R01",
+            "L2-ORG": "AUT-R01",
+            "BUID":   "R-BU01",
+
+            "OriginalOrderID": "AU<yyMMddhhmmss>",
+            "ItemID_Line1":  "R01-ITM01",
+            "ReasonCode":  ""
+          }
+        ]
+      },
+      {
+        "scenarioName": "DFN-INVENTORY-02 - Move iLPN out of location",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "BUID": "R-BU01",
+            "DamageLocation": "DM1010101",
+            "DisplayLocation": "B*",
+            "CycleCount": "1"
+          }
+        ]
+      },
+      {
+        "scenarioName": "FN-COUNTS 01 Count correct no deviation",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "BUID": "R-BU01",
+            "DamageLocation": "DM1010101",
+            "DisplayLocation": "*",
+            "CycleCount": "1"
+          }
+        ]
+      },
+      {
+        "scenarioName": "ITS-RCV-04 - Standard ASN Receiving - Test Validation",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exldd-auth.sce.manh.com",
+            "app_host": "https://exldd.sce.manh.com",
+            "BUID":   "R-BU01",
+            "ASNStatus": "InTransit",
+            "ASNLevel": "ItemLevel",
+            "AsnId": "ASN<MMddhhmmss>",
+            "ItemID_Line1":  "R01-ITM01",
+            "InvalidItemID_Line1":  "R01-ITM02"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "featureName": "Inventory_Test_Cases",
+    "featureData": [
+      {
+        "scenarioName": "FN-COUNT-06: Perform a count of serialized item with a variance.",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exlds2-auth.sce.manh.com",
+            "app_host": "https://exlds2.sce.manh.com",
+            "L0-ORG": "DHL",
+            "L1-ORG": "AUT",
+            "L2-ORG": "AUTFAC01",
+            "BUID": "R-BU01",
+            "Location": "S1*",
+            "ScanLocation": "S1010102",
+            "Item": "R01-ITM01",
+            "search": "INVENTORY MANAGEMENT"
+          }
+        ]
+      },
+      {
+        "scenarioName": "FN-COUNT-05- Plan a count of serialized item",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "BUID": "R-BU01",
+            "Location": "S1-01-01-01",
+            "ScanLocation": "S1010101",
+            "Item": "R01ITM06",
+            "EnterItem": "R01-ITM06",
+            "InventoryTypeId": "F",
+            "ProductStatusId": "A"
+          }
+        ]
+      },
+      {
+        "scenarioName": "FN-COUNT-07 : Plan and perform a count of LOT tracked items",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exlds2-auth.sce.manh.com",
+            "app_host": "https://exlds2.sce.manh.com",
+            "L0-ORG": "DHL",
+            "L1-ORG": "AUT",
+            "L2-ORG": "AUTFAC01",
+            "BUID": "R-BU01",
+            "Location": "S1*",
+            "ScanLocation": "S1010102",
+            "Item": "R01-ITM01",
+            "search": "INVENTORY MANAGEMENT"
+          }
+        ]
+      },
+      {
+        "scenarioName": "FN-COUNT-02-Plan count in any location with items inside",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "BUID": "R-BU01",
+            "Location": "S1-01-01-04",
+            "ScanLocation": "S1010104",
+            "Item": "R01ITM04",
+            "EnterItem": "R01-ITM04"
+          }
+        ]
+      },
+      {
+        "scenarioName": "DFN-INVENTORY-03-Pack stock in a pick location without an iLPN into an iLPN",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "BUID": "R-BU01",
+            "LPN": "LP<MMddhhmmss>",
+            "Location": "S1-01-01-03",
+            "Item": "R01-ITM04",
+            "Quantity": "1",
+            "Message": "iLPN scanned is a new iLPN (INM::300)",
+            "Status":"Not Allocated",
+            "StatusCode":"3000",
+            "TotalQuantity":"1",
+            "Difference":"-1"
+          }
+        ]
+      } ,
+      {
+      "scenarioName": "FN-COUNT-04 -Count identifies variance. Variance accepted by completing recount task and confirming the same variance",
+      "scenarioData": [
+        {
+          "iteration": 1,
+          "BUID": "R-BU01",
+          "Location": "S1-01-01-04",
+          "ScanLocation": "S1010104",
+          "Item": "R01ITM04",
+          "EnterItem": "R01-ITM04"
+        }
+      ]
+      },
+      {
+        "scenarioName": "DFN-ADJ-05-Product Status Adjustment iLPN",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "BUID": "R-BU01",
+            "Location": "S1-01-01-04",
+            "Item": "AUT-ADJ-05-00",
+            "ItemBarCode": "AUTADJ0500",
+            "ASN": "ASN<yyMMddhhmmss>",
+            "LPN": "LP<MMddhhmmss>",
+            "ProductStatus": "Available",
+            "InventoryType": "F",
+            "InventoryTypeDescription": "Finished",
+            "OnHandQuantity": "600"
+          }
+        ]
+      }
+    ]
+  },
+  
+  {
+    "featureName": "INV",
+    "featureData": [
+      {
+        "scenarioName": "DFN-INVENTORY-02 - Move iLPN out of location",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exlds2-auth.sce.manh.com",
+            "app_host": "https://exlds2.sce.manh.com",
+            "L0-ORG": "DHL",
+            "L1-ORG": "AUT",
+            "L2-ORG": "AUTFAC01",
+            "BUID": "AUTBU01",
+            "PO_ID": "PO-AF1-<yyyyMMddhhmmssSSS>",
+            "LineID_Line1": "1",
+            "ItemID_Line1": "AF1-ITM01",
+            "OrdQty_Line1":  "1",
+            "LineID_Line2": "2",
+            "ItemID_Line2": "AF1-ITM01",
+            "OrdQty_Line2":  "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "featureName": "RCV",
+    "featureData": [
+      {					 
+        "scenarioName": "DFN-RECEIVING-04-Standard ASN receiving with cubiscan one product",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exlds2-auth.sce.manh.com",
+            "app_host": "https://exlds2.sce.manh.com",
+            "L0-ORG": "AUT-R01",
+            "L1-ORG": "AUT-R01",
+            "L2-ORG": "AUT-R01",
+            "BUID": "R-BU01",
+
+
+            "ASN":"ASN<yyyyMMddhhmm>",
+            "LPNId": "JH<yyMMssSS>",
+            "ASNStatus":"1000",
+            "LineID_Line1": "1",
+            "OrdQty_Line1":  "1",
+            "ItemID_Line1": "BU01NODIMS01",
+            "ProductStatus_Line1": "A",
+            "inventory_Line1": "F",
+            "OrdQty_Line1":  "200"
+          }
+        ]
+      },
+      {
+      	"scenarioName": "DFN-RECEIVING-05-Standard ASN receiving with tolerance",
+      	"scenarioData": [
+	        {
+	          "iteration": 1,
+	          "auth_host": "https://exlds2-auth.sce.manh.com",
+	          "app_host": "https://exlds2.sce.manh.com",
+	          "L0-ORG": "AUT-R01",
+	          "L1-ORG": "AUT-R01",
+	          "L2-ORG": "AUT-R01",
+	          "BUID": "R-BU01",
+	
+	          "PO_ID": "PO-RCV05-<yyyyMMddhhmmssSSS>",	         
+	          "ASN":"ASN<yyyyMMddhhmm>",
+	          "LPNId": "JH<yyyyMMssSS>",
+	          "ASNStatus":"1000",
+	          "LineID_Line1": "1",
+	          "OrdQty_Line1":  "205",
+	          "ItemID_Line1": "FN02BOOK1",
+	          "ItemID1_Line1": "FN02-BOOK-1",
+	          "ProductStatus_Line1": "A",
+	          "inventory_Line1": "F",
+	          "CoOrigin_Line1": "FR",
+	          "LineID_Line2": "2",
+	          "ItemID_Line2": "FN02BOOK2",
+	          "ItemID1_Line2": "FN02-BOOK-2",
+	          "OrdQty_Line2":  "215",
+	          "ProductStatus_Line2": "A",
+	          "inventory_Line2": "F",
+	          "CoOrigin_Line2": "DE",
+	          "LineID_Line3": "2",
+	          "ItemID_Line3": "FN02BOOK3",
+	          "ItemID1_Line3": "FN02-BOOK-3",
+	          "OrdQty_Line4":  "252",
+	          "ProductStatus_Line3": "A",
+	          "inventory_Line3": "F",
+	          "CoOrigin_Line3": "IT",	
+	          "OrdQty_Line3":  "200"
+	        }
+      	]
+      },
+      {
+        "scenarioName": "DFN-RECEIVING-08-Standard ASN receiving with not annouced LOT but without Expiration Date",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exlds2-auth.sce.manh.com",
+            "app_host": "https://exlds2.sce.manh.com",
+            "L0-ORG": "AUT-R01",
+            "L1-ORG": "AUT-R01",
+            "L2-ORG": "AUT-R01",
+            "BUID": "R-BU01",
+
+
+            "ASN":"ASN<yyyyMMddhhmm>",
+            "LPNId": "JH<yyyyMMssSS>",
+            "ASNStatus":"1000",
+            "LineID_Line1": "1",
+            "OrdQty_Line1":  "200",
+            "ItemID_Line1": "R01-ITM01",
+            "ItemIDcode_Line1": "R01-ITM01",
+            "BatchNo_Line1": "B20230630001",
+            "ExpDate_Line1": "null"
+          }
+        ]
+      },
+      {
+        "scenarioName": "DFN-RECEIVING-09-Standard ASN receiving with annouced LOT but without Expiration Date",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exldd-auth.sce.manh.com",
+            "app_host": "https://exldd.sce.manh.com",
+            "L0-ORG": "AUT-R01",
+            "L1-ORG": "AUT-R01",
+            "L2-ORG": "AUT-R01",
+            "BUID":   "R-BU01",
+
+            "PO_ID": "PO-S1-<yyyyMMddhhmmssSSS>",
+            "LineID_Line1":  "1",
+            "ItemID_Line1":  "R01-ITM01",
+            "OrdQty_Line1":  "25",
+            "QuantityUomId_Line1":"UNIT",
+            "StandardPackQuantity_Line1":"1",
+            "InventoryTypeId_Line1":"F",
+            "ProductStatusId_Line1":"",
+            "BatchNo_Line1": "B20230630001",
+            "InventoryAttribute1_Line1":"",
+            "InventoryAttribute2_Line1":"",
+            "InventoryAttribute3_Line1":"",
+            "InventoryAttribute4_Line1":"",
+            "InventoryAttribute5_Line1":"",
+            "CountryOfOrigin_Line1":"US",
+            "QtyToAssign_Line1_Valid":"25",
+            "UserScanLocation":"B1-02-10-01",
+            "LPNId": "JH<yyyyMMssSS>",
+            "ItemIDcode_Line1":  "R01-ITM01",
+            "ExpiryDate_Line1": "null"
+          }
+        ]
+      },
+      {
+        "scenarioName": "DFN-RECEIVING-15-Standard ASN receiving with not annouced LOT with Expiration Date",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exlds2-auth.sce.manh.com",
+            "app_host": "https://exlds2.sce.manh.com",
+            "L0-ORG": "AUT-R01",
+            "L1-ORG": "AUT-R01",
+            "L2-ORG": "AUT-R01",
+            "BUID": "R-BU01",
+
+            "PO_ID": "PO-RCV15-<yyyyMMddhhmmssSSS>",            
+            "ASN":"ASN<yyyyMMddhhmm>",
+            "LPNId": "JH<yyyyMMssSS>",
+            "ASNStatus":"1000",
+            "LineID_Line1": "1",
+            "OrdQty_Line1":  "200",
+            "ItemID_Line1": "R01-ITM04",
+            "ItemIDcode_Line1": "R01ITM04",
+            "BatchNo_Line1": "AS271231",
+            "ExpiryDate_Line1": "09/19/2028",
+            "LineID_Line2": "2",
+            "ItemID_Line2": "FN02BOOK2",
+            "OrdQty_Line2":  "215",
+            "LineID_Line3": "2",
+            "ItemID_Line3": "FN02BOOK3",
+            "OrdQty_Line3":  "252",
+            "OrdQty_Line4":  "200"
+          }
+        ]
+      },      
+      {
+        "scenarioName": "DFN-RECEIVING-10-Standard ASN receiving with not annouced LOT with Expiration Date",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exlds2-auth.sce.manh.com",
+            "app_host": "https://exlds2.sce.manh.com",
+            "L0-ORG": "AUT-R01",
+            "L1-ORG": "AUT-R01",
+            "L2-ORG": "AUT-R01",
+            "BUID": "R-BU01",
+
+            "PO_ID": "PO-RCV10-<yyyyMMddhhmmssSSS>",           
+            "ASN":"ASN<yyyyMMddhhmm>",
+            "LPNId": "JH<yyMMssSS>",
+            "ASNStatus":"1000",
+            "LineID_Line1": "1",
+            "OrdQty_Line1":  "200",
+            "ItemID_Line1": "R01-ITM04",
+            "ItemIDcode_Line1": "R01ITM04",
+            "BatchNo_Line1": "AS271231",
+            "ExpiryDate_Line1": "12/31/2027"
+          }
+        ]
+      },
+      {
+        "scenarioName": "DFN-RECEIVING-11-Standard ASN receiving with annouced LOT with Expiration Date",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exlds2-auth.sce.manh.com",
+            "app_host": "https://exlds2.sce.manh.com",
+            "L0-ORG": "AUT-R01",
+            "L1-ORG": "AUT-R01",
+            "L2-ORG": "AUT-R01",
+            "BUID": "R-BU01",
+
+            "PO_ID": "PO-RCV11-<yyyyMMddhhmmssSSS>",            
+            "ASN":"ASN<yyyyMMddhhmm>",
+            "LPNId": "JH<yyyyMMssSS>",
+            "ASNStatus":"1000",
+            "LineID_Line1": "1",
+            "OrdQty_Line1":  "200",
+            "ItemID_Line1": "R01-ITM04",
+            "ItemIDcode_Line1": "R01ITM04",
+            "BatchNo_Line1": "AS271231",
+            "ExpiryDate_Line1": "12/31/2027",
+            "LineID_Line2": "2",
+            "ItemID_Line2": "FN02BOOK2",
+            "OrdQty_Line2":  "215",
+            "LineID_Line3": "2",
+            "ItemID_Line3": "FN02BOOK3",
+            "OrdQty_Line3":  "252",
+            "OrdQty_Line4":  "200"
+          }
+        ]
+      },      
+      {
+        "scenarioName": "DFN-RECEIVING-12-Standard ASN receiving with LOT in the system",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exlds2-auth.sce.manh.com",
+            "app_host": "https://exlds2.sce.manh.com",
+            "L0-ORG": "AUT-R01",
+            "L1-ORG": "AUT-R01",
+            "L2-ORG": "AUT-R01",
+            "BUID": "R-BU01",
+
+            "PO_ID": "PO-RCV12-<yyyyMMddhhmmssSSS>",            
+            "ASN":"ASN<yyyyMMddhhmm>",
+            "LPNId": "JH<yyyyMMssSS>",
+            "ASNStatus":"1000",
+            "LineID_Line1": "1",
+            "OrdQty_Line1":  "200",
+            "ItemID_Line1": "R01-ITM04",
+            "ItemIDcode_Line1": "R01ITM04",
+            "BatchNo_Line1": "AS271231",
+            "ExpiryDate_Line1": "12/31/2027"
+          }
+        ]
+      },
+      
+      {"scenarioName": "DFN-RECEIVING-13-Standard ASN receiving multiple product statuses",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exldd-auth.sce.manh.com",
+            "app_host": "https://exldd.sce.manh.com",
+            "L0-ORG": "AUT-R01",
+            "L1-ORG": "AUT-R01",
+            "L2-ORG": "AUT-R01",
+            "BUID":   "R-BU01",
+            "PO_ID": "PO-RCV13-<yyyyMMddhhmmssSSS>",
+            "LineID_Line1":  "1",
+            "ItemID_Line1":  "R01-ITM03",
+            "OrdQty_Line1":  "25",
+            "QuantityUomId_Line1":"UNIT",
+            "StandardPackQuantity_Line1":"1",
+            "InventoryTypeId_Line1":"F",
+            "ProductStatusId_Line1":"A",
+            "BatchNo_Line1": "B20230630001",
+            "InventoryAttribute1_Line1":"",
+            "InventoryAttribute2_Line1":"",
+            "InventoryAttribute3_Line1":"",
+            "InventoryAttribute4_Line1":"",
+            "InventoryAttribute5_Line1":"",
+            "CountryOfOrigin_Line1":"US",
+
+            "LineID_Line2":  "2",
+            "ItemID_Line2":  "R01-ITM03",
+            "OrdQty_Line2":  "25",
+            "QuantityUomId_Line2":"UNIT",
+            "StandardPackQuantity_Line2":"1",
+            "InventoryTypeId_Line2":"F",
+            "ProductStatusId_Line2":"R",
+            "BatchNo_Line2": "B202307317001",
+            "InventoryAttribute1_Line2":"",
+            "InventoryAttribute2_Line2":"",
+            "InventoryAttribute3_Line2":"",
+            "InventoryAttribute4_Line2":"",
+            "InventoryAttribute5_Line2":"",
+            "CountryOfOrigin_Line2":"US",
+            "ProductStatusCount":"2"
+          }
+        ]
+      },
+      {
+        "scenarioName": "DFN-RECEIVING-15-Standard pre-announced LPN receiving test",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exlds2-auth.sce.manh.com",
+            "app_host": "https://exlds2.sce.manh.com",
+            "L0-ORG": "DHL",
+            "L1-ORG": "AUT",
+            "L2-ORG": "AUTFAC01",
+            "BUID": "R-BU01",
+
+            "ASNId": "ASNZK2309101545",
+            "ASN":"ASN<yyyyMMddhhmm>",
+            "LPNId": "JH<yyyyMMssSS>",
+            "ASNStatus":"1000",
+            "LineID_Line1": "1",
+            "OrdQty_Line1":  "200",
+            "ItemID_Line1": "R01-ITM04",
+            "ItemIDcode_Line1": "R01ITM04",
+            "BatchNo_Line1": "JH231231",
+            "ExpiryDate_Line1": "12/30/2028",
+            "StdLPNQty": "1000"
+          }
+        ]
+      },
+      {
+        "scenarioName": "DFN-RECEIVING-14-Standard Trolley Receiving",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exlds2-auth.sce.manh.com",
+            "app_host": "https://exlds2.sce.manh.com",
+            "L0-ORG": "DHL",
+            "L1-ORG": "AUT",
+            "L2-ORG": "AUTFAC01",
+            "BUID": "R-BU01",
+           
+            "ASN": "ASNZK<MMddhhmms>",
+            "AsnLineId": "",
+            "LPNIdLine1": "LPNZ<MMddhhmm>",
+            "LPNIdLine2": "LPNY<MMddhhmm>",
+            "LPNIdLine3": "LPNX<MMddhhmm>",
+            "ItemID_Line1": "R01ITM04",
+            "ItemID_Line2": "R01-ITM03",
+            "ItemID_Line3": "FN02BOOK1",
+            "BatchNo": "JH231231",
+            "PalletId1": "PL<MMddhhmm>",
+            "PalletId2": "PLY05101455",
+            "InventoryTypeId": "F",
+            "ProductStatusId": "A",
+            "ExpiryDate": "12-31-2028",
+            "strReserveLocation": "R1010203"
+          }
+        ]
+      },
+      {
+        "scenarioName": "DFN-RECEIVING-15-Standard ASN receiving with not annouced LOT with Expiration Date",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exlds2-auth.sce.manh.com",
+            "app_host": "https://exlds2.sce.manh.com",
+            "L0-ORG": "AUT-R01",
+            "L1-ORG": "AUT-R01",
+            "L2-ORG": "AUT-R01",
+            "BUID": "R-BU01",
+
+            "PO_ID": "PO-RCV15-<yyyyMMddhhmmssSSS>",           
+            "ASN":"ASN<yyyyMMddhhmm>",
+            "LPNId": "JH<yyyyMMssSS>",
+            "ASNStatus":"1000",
+            "LineID_Line1": "1",
+            "OrdQty_Line1":  "200",
+            "ItemID_Line1": "R01-ITM04",
+            "ItemIDcode_Line1": "R01ITM04",
+            "BatchNo_Line1": "AS271231",
+            "ExpiryDate_Line1": "09/19/2028",
+            "LineID_Line2": "2",
+            "ItemID_Line2": "FN02BOOK2",
+            "OrdQty_Line2":  "215",
+            "LineID_Line3": "2",
+            "ItemID_Line3": "FN02BOOK3",
+            "OrdQty_Line3":  "252",
+            "OrdQty_Line4":  "200"
+          }
+        ]
+      },
+      {
+        "scenarioName": "DFN-RECEIVING-16 -Standard LPN Level ASN Receiving with Parent LPN",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exlds2-auth.sce.manh.com",
+            "app_host": "https://exlds2.sce.manh.com",
+            "L0-ORG": "AUT-R01",
+            "L1-ORG": "AUT-R01",
+            "L2-ORG": "AUT-R01",
+            "BUID": "R-BU01",
+
+            "PO_ID": "PO-RCV16-<yyyyMMddhhmmssSSS>",            
+            "ASN":"ASN<yyyyMMddhhmm>",
+            "LPNId": "JH<yyMMssSS>",
+            "ASNStatus":"1000",
+            "LPNStatus":"1000",
+            "LineID_Line1": "1",
+            "OrdQty_Line1":  "200",
+            "ItemID_Line1": "R01-ITM04",
+            "ItemIDcode_Line1": "R01ITM04",
+            "BatchNo_Line1": "AS271231",
+            "ExpiryDate_Line1": "09/19/2028",
+            "LineID_Line2": "2",
+            "ItemID_Line2": "FN02BOOK2",
+            "OrdQty_Line2":  "215",
+            "LineID_Line3": "2",
+            "ItemID_Line3": "FN02BOOK3",
+            "OrdQty_Line3":  "252",
+            "OrdQty_Line4":  "200"
+          }
+        ]
+      },
+      {
+        "scenarioName": "DFN-RECEIVING-17 -Standard LPN Level ASN Receiving",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exlds2-auth.sce.manh.com",
+            "app_host": "https://exlds2.sce.manh.com",
+            "L0-ORG": "AUT-R01",
+            "L1-ORG": "AUT-R01",
+            "L2-ORG": "AUT-R01",
+            "BUID": "R-BU01",
+
+            "ASN":"ASN<yyyyMMddhhmm>",
+            "LPNId": "JH<yyMMssSS>",
+            "ASNStatus":"1000",
+            "LPNStatus":"1000",
+            "LineID_Line1": "1",
+            "OrdQty_Line1":  "200",
+            "ItemID_Line1": "R01-ITM03",
+            "ItemIDcode_Line1": "R01ITM03",
+            "ItemID_Line2": "R01-ITM04",
+            "ItemIDcode_Line2": "R01ITM04",
+            "BatchNo_Line1": "",
+            "ExpiryDate_Line1": "",
+            "BatchNo_Line2": "JH271221",
+            "ExpiryDate_Line2": "12-31-2028",
+            "ProductStatus_Line1": "A",
+            "inventory_Line1": "F",
+            "ProductStatus_Line2": "A",
+            "inventory_Line2": "F"
+          }
+        ]
+      },
+      {
+        "scenarioName": "DFN-RECEIVING-07 -Standard ASN receiving with serial numbers outbound (no ask)",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exlds2-auth.sce.manh.com",
+            "app_host": "https://exlds2.sce.manh.com",
+            "L0-ORG": "DHL",
+            "L1-ORG": "AUT",
+            "L2-ORG": "AUTFAC01",
+            "BUID": "R-BU01",
+
+            "ASNId": "ASNZK2309101545",
+            "ASN":"ASN<yyyyMMddhhmm>",
+            "LPNId": "JH<yyyyMMssSS>",
+            "ASNStatus":"1000",
+            "LineID_Line1": "1",
+            "OrdQty_Line1":  "200",
+            "ItemID_Line1": "R01-ITM05",
+            "ItemIDcode_Line1": "R01ITM05",
+            "InventoryTypeId_Line1": "F",
+            "ProductStatusId_Line1": "A",
+            "ProductStatusCodeId_Line1": "Available",
+            "StdLPNQty": "1000"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "featureName": "Batch_Test_Cases",
+    "featureData": [
+      {
+        "scenarioName": "FN-BATCH-Scenarios Release-Held, Held-Release, Release-Recall, Recall-Release",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "BUID": "R-BU01"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "featureName": "ASN_Test_Cases",
+    "featureData": [
+      {
+        "scenarioName": "DFN-ASN-CONFIRM-01-Process Unexpected Return ASN and Verify It",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "BUID": "R-BU01",
+            "LPN": "JH101220239",
+            "Item": "R01ITM04",
+            "BatchNumber": "JH271231",
+            "ExpirationDate": "12/31/2027",
+            "Quantity": "1"
+
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "featureName": "Putaway_Test_Cases",
+    "featureData": [
+      {
+        "scenarioName": "FN-PUTAWAY-12- Putaway to Multi-SKU Location",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "BUID": "R-BU01",
+            "Location": "S1-01-12-PW",
+            "Item1": "R12-IPW02",
+            "MaxItems" : "2",
+            "strLPNStatus": "NotAllocated",
+            "strLPNItemID": "R12-IPW01",
+            "strLPNItemID2": "R12-IPW02",
+            "strLPNItemID3": "R12-IPW03"
+          }
+        ]
+      },
+
+      {
+        "scenarioName": "FN-PUTAWAY-07-Putaway_by_Product_Status_Product_Status_Q",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "BUID": "R-BU01",
+            "iLPN": "ILPN<MMddhhmmss>",
+            "Item": "R01-ITM03",
+            "InventoryTypeId": "F",
+            "ProductStatusId": "Q",
+            "ProductStatus": "Quarantine",
+            "Quantity": "5",
+            "ReasonCode": "IA",
+            "ReferenceCode": "FN-PUTAWAY-07",
+            "SecondaryReferenceCode": "TEST02",
+            "DeterminationMode": "Zone Based Location Determination",
+            "StatusCode": "3000",
+            "CurrentLocationTypeId": "STORAGE",
+            "PutawayZone": "QA01-Put Allocation",
+            "Location": "Q1-01-01-01",
+            "PutAllocationZone": "QA01*"
+          }
+        ]
+      },
+      {
+        "scenarioName": "FN-PUTAWAY-06-Putaway_by_Product_Family_Type_Product_Class_Books",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "BUID": "R-BU01",
+            "Item": "FN02-BOOK-1",
+            "ProductClass": "BOOKS",
+            "DeterminationMode": "Zone Based Location Determination",
+            "PutawayZone": "PR03-PutAllocation",
+            "PutAllocationZone": "PR03-PutAllocation"
+          }
+        ]
+      },
+      {
+        "scenarioName": "FN-PUTAWAY-10-Trolley Putaway of Multiple iLPNs",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "BUID": "R-BU01",
+            "AsnId": "AS<MMddhhmmss>",
+            "Item1": "R01-ITM03",
+            "Item2": "R01ITM04",
+            "Item3": "FN02BOOK1",
+            "Quantity": "20",
+            "ProductStatus": "A",
+            "ProductStatusDescription": "A",
+            "InventoryType": "F",
+            "CountryOfOrigin": "IE",
+            "ExpiryDate": "010125",
+            "ProductStatusCount": "3",
+            "InventoryTypeCount": "3",
+            "CurrentLocation": "TROLLEY-AVAILABLE-01",
+            "PreviousLocation": "TROLLEY-AVAILABLE-01"
+          }
+        ]
+      },
+      {
+        "scenarioName": "DFN-PUTAWAY-03-Putaway to pallet stock directed",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exlds2-auth.sce.manh.com",
+            "app_host": "https://exlds2.sce.manh.com",
+            "L0-ORG": "DHL",
+            "L1-ORG": "AUT",
+            "L2-ORG": "AUTFAC01",
+            "BUID": "R-BU01",
+
+            "strLPNStatus": "NotAllocated",
+            "strLPNItemID": "R01-ITM04",
+            "strReserveLocation": "R1010203",
+            "strDisplayLocation": "R1-01-02-03"
+          }
+        ]
+      },
+      {
+        "scenarioName": "FN-PUTAWAY-02-Putaway to pick location directed",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "BUID": "R-BU01",
+            "AsnId": "AS<yyMMddhhmmss>",
+            "LPNId": "LP<MMddhhmmss>",
+            "ItemIDcode_Line1":  "R14IPW01",
+            "BatchNo_Line1": "BN1017100000",
+            "OrdQty_Line1":  "1",
+            "Before Status":"Not Allocated",
+            "Before StatusCode":"3000",
+            "After Status":"Consumed",
+            "After StatusCode":"9000"
+          }
+        ]
+      },
+      {
+        "scenarioName": "FN-PUTAWAY-09-Putaway based on Volume",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "BUID": "R-BU01",
+            "Location": "S1-<MM-dd->",
+            "iLPNCount": "2",
+            "iLPN": "LP<MMddhhmmss>",
+            "Item1": "R01-ITMDW-09",
+            "Item2": "R01-ITMDW-09",
+            "InventoryTypeId1": "F",
+            "InventoryTypeId2": "F",
+            "ProductStatusId1": "A",
+            "ProductStatusId2": "A",
+            "Quantity1": "19",
+            "Quantity2": "1",
+            "ReasonCode1": "11",
+            "ReasonCode2": "11",
+            "ExpiryDate": "010125",
+            "ItemVolumeUOM": "cucm",
+            "DeterminationMode": "Zone Based Location Determination",
+            "PutawayZone1": "SP01-PutAllocation",
+            "PutawayZone2": "SP02-PutAllocation",
+            "PutawayZone3": "PB01-PutAllocation",
+            "PutawayZone4": "PR01-PutAllocation",
+            "PutawayZone5": "PR02-PutAllocation"
+          }
+        ]
+      },
+      {
+        "scenarioName": "FN-PUTAWAY-13-Putaway of Pallet containing multiple iLPNs to a single location",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "BUID": "R-BU01",
+            "ASN": "ASN<YYMMddhhmmss>",
+            "LPN": "LP<YYMMddhhmmss>",
+            "DeterminationMode": "Zone Based Location Determination",
+            "PutawayZone1": "PR01-PutAllocation",
+            "PutawayZone2": "PR02-PutAllocation",
+            "PutawayZone3": "PR03-PutAllocation",
+            "ContainerPlanningMode": "Putaway Entire Pallet"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "featureName": "Alloc",
+    "featureData": [
+      {
+        "scenarioName": "FN-ALLOC-06-Allocate one specific batch when waving order",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exldd-auth.sce.manh.com",
+            "app_host": "https://exldd.sce.manh.com",
+            "L0-ORG": "AUT-R01",
+            "L1-ORG": "AUT-R01",
+            "L2-ORG": "AUT-R01",
+            "BUID": "R-BU01",
+            "BatchNo_Line1": "B20230630001",
+            "ItemID_Line1":  "R01-ITM01",
+            "BatchMasterID":"B<yyMMddss0>",
+            "BatchMasterStatus": "1000",
+            "InventoryContainerType":"Location",
+            "Original_Order_ID": "AU23100611134601",
+            "OriginalOrderID": "AU<yyMMddhhmmss>",
+            "AsnId": "ASN<yyMMddhhmmss>",
+            "ASN": "AU23100504125501",
+            "OrderedQuantity": "5",
+            "WM_Receiving": "AT Standard Receiving",
+            "WM_PutAway": "AT User Directed Putaway",
+            "Display_Location1": "S1-01-01-03",
+            "NumberOfBatches": "1",
+            "orderLineQuantity": "1",
+            "Order_Line_Quantity1": "1",
+            "OrdQty_Line1": "1",
+            "lpnQuantity": "1"
+          }
+        ]
+      },
+      {
+        "scenarioName": "FN-ALLOC-07-Allocate multiple specific batches for the same SKU when waving order",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exldd-auth.sce.manh.com",
+            "app_host": "https://exldd.sce.manh.com",
+            "L0-ORG": "AUT-R01",
+            "L1-ORG": "AUT-R01",
+            "L2-ORG": "AUT-R01",
+            "BUID": "R-BU01",
+            "BatchNo_Line1": "B20230630001",
+            "BatchNo_Line2": "030720230101",
+            "ItemID_Line1":  "R01-ITM01",
+            "ItemID_Line2":  "R01-ITM01",
+            "BatchMasterID":"B<yyMMddss0>",
+            "AsnId": "ASN<yyMMddhhmmss>",
+            "BatchMasterStatus": "1000",
+            "InventoryContainerType":"Location",
+            "Original_Order_ID": "JH202308100602",
+            "NumberOfBatches": "2",
+            "orderLineQuantity": "2",
+            "Order_Line_Quantity1": "2",
+            "Order_Line_Quantity2": "2",
+            "OriginalOrderID": "AU<yyMMddhhmmss>",
+            "ASN": "AU23100504125501",
+            "OrderedQuantity": "15",
+            "WM_Receiving": "AT Standard Receiving",
+            "WM_PutAway": "AT User Directed Putaway",
+            "Display_Location1": "S1-01-01-03",
+            "Display_Location2": "S1-01-01-03",
+            "OrdQty_Line1": "2",
+            "OrdQty_Line2": "2",
+            "lpnQuantity": "2"
+          }
+        ]
+      },
+      {
+        "scenarioName": "FN-ALLOC-05-Allocate single specific serial number for and order for an item that tracks serial numbers inbound and outbound",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exldd-auth.sce.manh.com",
+            "app_host": "https://exldd.sce.manh.com",
+            "L0-ORG": "AUT-R01",
+            "L1-ORG": "AUT-R01",
+            "L2-ORG": "AUT-R01",
+            "BUID": "R-BU01",
+            "ItemID_Line_1":  "R01-ITM06",
+            "ItemID_Line1": "R01ITM06",
+            "AsnId": "ASN<yyMMddhhmmss>",
+            "InventoryContainerType":"Location",
+            "orderLineQuantity": "1",
+            "lpnQuantity": "1",
+            "OrdQty_Line1": "1",
+            "Order_Line_Quantity1": "1",
+            "OriginalOrderID": "AU<yyMMddhhmmss>",
+            "OrderedQuantity": "1",
+            "Display_Location1": "S1-01-01-01",
+            "InventoryTypeID": "F",
+            "ProductStatusID": "A",
+            "BatchNumber":""
+          }
+        ]
+      },
+      {
+        "scenarioName": "FN-ALLOC-03 - Allocate with shortage and deselect",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exldd-auth.sce.manh.com",
+            "app_host": "https://exldd.sce.manh.com",
+            "L0-ORG": "AUT-R01",
+            "L1-ORG": "AUT-R01",
+            "L2-ORG": "AUT-R01",
+            "BUID": "R-BU01",
+            "ItemID_Line_1":  "R01-ITM06",
+            "ItemID_Line_2":  "R01-ITM06",
+            "ItemID_Line1": "R01ITM06",
+            "AsnId": "ASN<yyMMddhhmmss>",
+            "InventoryContainerType":"Location",
+            "orderLineQuantity": "2",
+            "lpnQuantity": "1",
+            "OrdQty_Line1": "2",
+            "OrdQty_Line2": "2",
+            "Order_Line_Quantity2": "1",
+            "Order_Line_Quantity1": "1",
+            "OriginalOrderID": "AU<yyMMddhhmmss>",
+            "OrderedQuantity": "1",
+            "Display_Location1": "S1-01-01-01",
+            "InventoryTypeID": "F",
+            "ProductStatusID": "A",
+            "BatchNumber":""
+          }
+        ]
+      },
+      {
+        "scenarioName": "FN-ALLOC-09-Allocate multiple specific serial numbers for and order for an item that tracks serial numbers inbound and outbound",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exldd-auth.sce.manh.com",
+            "app_host": "https://exldd.sce.manh.com",
+            "L0-ORG": "AUT-R01",
+            "L1-ORG": "AUT-R01",
+            "L2-ORG": "AUT-R01",
+            "BUID": "R-BU01",
+            "ItemID_Line_1":  "R01-ITM06",
+            "ItemID_Line_2":  "R01-ITM06",
+            "ItemID_Line1": "R01ITM06",
+            "AsnId": "ASN<yyMMddhhmmss>",
+            "InventoryContainerType":"Location",
+            "orderLineQuantity": "2",
+            "lpnQuantity": "1",
+            "OrdQty_Line1": "2",
+            "OrdQty_Line2": "2",
+            "Order_Line_Quantity1": "1",
+            "Order_Line_Quantity2": "1",
+            "OriginalOrderID": "AU<yyMMddhhmmss>",
+            "OrderedQuantity": "2",
+            "Display_Location1": "S1-01-01-01",
+            "InventoryTypeID": "F",
+            "ProductStatusID": "A",
+            "BatchNumber":""
+          }
+        ]
+      },
+      {
+        "scenarioName": "FN-ALLOC-02 -Allocate by FEFO",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exldd-auth.sce.manh.com",
+            "app_host": "https://exldd.sce.manh.com",
+            "L0-ORG": "AUT-R01",
+            "L1-ORG": "AUT-R01",
+            "L2-ORG": "AUT-R01",
+            "BUID": "R-BU01",
+            "BatchNo_Line1": "AUTALLOC02B1",
+            "ItemID_Line1":  "AUT-ALLOC-02",
+            "BatchNo_Line2": "AUTALLOC02B1",
+            "ItemID_Line2":  "AUT-ALLOC-02",
+            "BatchNo_Line3": "AUTALLOC02B2",
+            "ItemID_Line3":  "AUT-ALLOC-02",
+            "BatchMasterID":"B<yyMMddss0>",
+            "BatchMasterStatus": "1000",
+            "OrdQty_Line1": "600",
+            "OrdQty_Line2": "600",
+            "OrdQty_Line3": "600",
+            "InventoryContainerType":"Location",
+            "Original_Order_ID": "AU23100611134601",
+            "OriginalOrderID": "AU<yyMMddhhmmss>",
+            "ASN":"ASN<yyyyMMddhhmm>",
+            "LPNId": "JH<yyMMssSS>",
+            "OrderedQuantity": "5",
+            "WM_Receiving": "AT Standard Receiving",
+            "WM_PutAway": "AT User Directed Putaway",
+            "Display_Location1": "R1010604",
+            "Display_Location2": "R1010603",
+            "Display_Location3": "R1010602",
+            "NumberOfBatches": "1",
+            "orderLineQuantity": "3",
+            "Order_Line_Quantity3": "600",
+            "ItemID_Line_1":  "R01-ITM06",
+            "ItemID_Line_2":  "R01-ITM06",
+            "AsnId": "ASN<yyMMddhhmmss>",
+            "lpnQuantity": "1",
+            "Order_Line_Quantity1": "1",
+            "Order_Line_Quantity2": "1",
+            "OriginalOrderID": "AU<yyMMddhhmmss>",
+            "OrderedQuantity": "2",
+            "InventoryTypeID": "F",
+            "ProductStatusID": "A",
+            "BatchNumber":""
+
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "featureName": "PACKING_Test_Cases",
+    "featureData": [
+      {
+        "scenarioName": "DFN-PACKING-01-Create one order multi piece, allocate and pick Pack normally",
+        "scenarioData": [
+          {
+            "iteration": 1,
+            "auth_host": "https://exlds2-auth.sce.manh.com",
+            "app_host": "https://exlds2.sce.manh.com",
+            "L0-ORG": "DHL",
+            "L1-ORG": "AUT",
+            "L2-ORG": "AUTFAC01",
+            "BUID": "R-BU01",
+            "ItemIdStarting": "AUT-PACKING-01*",
+            "ItemId_Line1": "AUT-PACKING-0100",
+            "ItemId_Line2": "AUT-PACKING-0101",
+            "ItemCodeType": "EAN",
+            "ItemIdCodeValue_Line1": "AUTPACKING0100",
+            "ItemIdCodeValue_Line2": "AUTPACKING0101",
+            "StdQtyUomIdPack": "PACK",
+            "StdQtyUomIdPallet": "PALLET",
+            "QuantityPack": "100",
+            "QuantityPallet": "600",
+            "ASN":"AUTPACKING<ddhhmm>",
+            "LPNId_Line1": "AUTPCKX<ddhhmmss>",
+            "LPNId_Line2": "AUTPCKY<ddhhmmss>",
+            "ShippedQty_Line1": "5",
+            "ShippedQty_Line2": "10",
+            "ScanLocation_Line1" : "S1010304",
+            "ScanLocation_Line2" : "S1010401",
+            "ItemIdCount": "2",
+            "OrderQtyCount": "2",
+            "orderLineQuantity": "2",
+            "Order_Line_Quantity1": "5",
+            "Order_Line_Quantity2": "10",
+            "ContainerLocation_Line1" : "S1-01-03-04",
+            "ContainerLocation_Line2" : "S1-01-04-01",
+            "oLPNCount": "2"
+          }
+        ]
+      }
+    ]
+  }
+]

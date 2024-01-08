@@ -1,0 +1,53 @@
+{
+    "Data": [
+ {
+    "AggregationAttribute" : null,
+    "Actions": {
+        "OriginalOrderLine": "RESET"
+    },
+    "BillToFacilityId" : "StoreA",
+	"BillingMethodId": "Consignee",
+    "Cancelled": false,
+    "DeliveryEndDateTime": "2023-04-05T10:15:30",
+    "DeliveryStartDateTime": "2023-03-31T10:15:30",
+    "DesignatedStopId": null,
+    "DestinationAddress": {
+	    "Address1": "Dest Address1",
+		"Address2": "Dest Address2",
+		"Address3": "Dest Address3",
+		"City": "Bangkok","Country": 
+		"TH","County": "County",
+		"Email": "user@company.com",
+		"FirstName": "firstname",
+		"LastName": "lastname",
+		"Phone": "0000000000",
+		"PostalCode": "00000",
+		"State": "BKK"		},
+    "ImportTemplateId": "ATOriginalOrderHeader",
+    "OriginalOrderContact": [
+	{"BusinessUnitId": "{BUID}","Contact": {"Address1": "222"},"ContactTypeId": "ReturnTo","FacilityId": "{facility}"},
+	{"BusinessUnitId": "{BUID}","Contact": {"Address1": "345"},"ContactTypeId": "Holder","FacilityId": "{facility}"}
+	],
+    "OrderType": "Customer",
+    "OrgId": "{facility}",
+    "OriginFacilityId": "{facility}",
+    "OriginalOrderId": "{OriginalOrder_ID}",
+    "OriginalOrderLine": [
+            {
+            "Cancelled": false, 
+            "Extended": {},
+            "ItemId": "AUT-APIORDUPD-01",
+            "OrderedQuantity": "20",
+            "InventoryTypeId": "F",
+            "ProductStatusId": "R",
+            "OrgId": "{facility}",
+            "OriginalOrderLineId": "2",
+            "QuantityUomId": "UNIT"
+        }
+    ],
+    "PickupEndDateTime": "2023-04-02T10:15:30",
+    "PickupStartDateTime": "2023-03-31T10:15:30",
+    "OrderPlacedDateTime": "2020-03-10T00:00:00"
+}
+]
+}

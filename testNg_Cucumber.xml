@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" data-provider-thread-count="1">
+<parameter name="execution.tags" value="false"></parameter>
+<parameter name="cucumber.tags" value="@APItest1"></parameter>
+<parameter name="execution.single" value="false"></parameter>
+	<test name="Complete test run">
+		<classes>
+			<class name="com.dhl.framework.CucumberRunner" />
+		</classes>
+	</test>
+</suite>
